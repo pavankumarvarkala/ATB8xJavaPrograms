@@ -1,4 +1,4 @@
-package sept.ex_16092024;
+package sept.ex_16092024.Tasks;
 
 public class Task4_16092024 {
     public static void main(String[] args) {
