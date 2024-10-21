@@ -17,6 +17,9 @@ abstract class Book {
     int price;
     abstract void getDetails();
 }
+interface Book1{
+    abstract void getDetails1();
+}
 
 
 
