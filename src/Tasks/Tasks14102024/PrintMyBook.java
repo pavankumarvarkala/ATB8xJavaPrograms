@@ -1,22 +1,16 @@
 package Tasks.Tasks14102024;
 
-class PrintMyBook extends Book implements Book1{
+class PrintMyBook extends Book{
 
 
-    PrintMyBook(String name,String author,int price){
-        this.name=name;
-        this.author=author;
-        this.price=price;
+    public PrintMyBook(String name, String author, int price) {
+        super(name, author, price);
     }
-
 
     @Override
     void getDetails() {
-        System.out.println(name +","+author+","+price);
-    }
-
-    @Override
-    public void getDetails1() {
-        System.out.println(name +","+author+","+price);
+        System.out.println(name);
+        System.out.println(author);
+        System.out.println(price);
     }
 }

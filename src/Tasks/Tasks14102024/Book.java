@@ -12,14 +12,21 @@ abstract class Book {
 //// Output
 //
 //"Harry Potter, J.k. Rowling, 100"
-    String name;
-    String author;
-    int price;
+    protected String name;
+   protected String author;
+    protected int price;
+
+    public Book(String name, String author, int price) {
+        this.name = name;
+        this.author = author;
+        this.price = price;
+    }
+
     abstract void getDetails();
 }
-interface Book1{
-    abstract void getDetails1();
-}
+//interface Book1{
+//    abstract void getDetails1();
+//}
 
 
 
